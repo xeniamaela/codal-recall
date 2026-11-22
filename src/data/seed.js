@@ -1,0 +1,92 @@
+// Starter set of frequently-tested provisions.
+// Philippine statutes are public domain (IP Code, Sec. 176), so the full text can be used freely.
+// Always double-check against the official text (e.g. Official Gazette, lawphil.net, SC E-Library)
+// and use the Import tab to load complete codals.
+
+export const SEED_CODES = [
+  {
+    id: 'civ',
+    name: 'Civil Code of the Philippines',
+    short: 'Civil Code',
+    law: 'Republic Act No. 386',
+    provisions: [
+      { label: 'Art. 1', heading: 'Preliminary Title — Effect and Application of Laws', text: 'This Act shall be known as the "Civil Code of the Philippines."' },
+      { label: 'Art. 2', heading: 'Preliminary Title — Effect and Application of Laws', text: 'Laws shall take effect after fifteen days following the completion of their publication in the Official Gazette, unless it is otherwise provided. This Code shall take effect one year after such publication.', note: 'As amended by E.O. No. 200 (1987), publication may be in the Official Gazette or in a newspaper of general circulation.' },
+      { label: 'Art. 3', heading: 'Preliminary Title — Effect and Application of Laws', text: 'Ignorance of the law excuses no one from compliance therewith.' },
+      { label: 'Art. 4', heading: 'Preliminary Title — Effect and Application of Laws', text: 'Laws shall have no retroactive effect, unless the contrary is provided.' },
+      { label: 'Art. 6', heading: 'Preliminary Title — Effect and Application of Laws', text: 'Rights may be waived, unless the waiver is contrary to law, public order, public policy, morals, or good customs, or prejudicial to a third person with a right recognized by law.' },
+      { label: 'Art. 7', heading: 'Preliminary Title — Effect and Application of Laws', text: 'Laws are repealed only by subsequent ones, and their violation or non-observance shall not be excused by disuse, or custom or practice to the contrary. When the courts declared a law to be inconsistent with the Constitution, the former shall be void and the latter shall govern. Administrative or executive acts, orders and regulations shall be valid only when they are not contrary to the laws or the Constitution.' },
+      { label: 'Art. 8', heading: 'Preliminary Title — Effect and Application of Laws', text: 'Judicial decisions applying or interpreting the laws or the Constitution shall form a part of the legal system of the Philippines.' },
+      { label: 'Art. 9', heading: 'Preliminary Title — Effect and Application of Laws', text: 'No judge or court shall decline to render judgment by reason of the silence, obscurity or insufficiency of the laws.' },
+      { label: 'Art. 10', heading: 'Preliminary Title — Effect and Application of Laws', text: 'In case of doubt in the interpretation or application of laws, it is presumed that the lawmaking body intended right and justice to prevail.' },
+      { label: 'Art. 19', heading: 'Preliminary Title — Human Relations', text: 'Every person must, in the exercise of his rights and in the performance of his duties, act with justice, give everyone his due, and observe honesty and good faith.' },
+      { label: 'Art. 20', heading: 'Preliminary Title — Human Relations', text: 'Every person who, contrary to law, wilfully or negligently causes damage to another, shall indemnify the latter for the same.' },
+      { label: 'Art. 21', heading: 'Preliminary Title — Human Relations', text: 'Any person who wilfully causes loss or injury to another in a manner that is contrary to morals, good customs or public policy shall compensate the latter for the damage.' },
+      { label: 'Art. 1156', heading: 'Book IV — Obligations: General Provisions', text: 'An obligation is a juridical necessity to give, to do or not to do.' },
+      { label: 'Art. 1157', heading: 'Book IV — Obligations: General Provisions', text: 'Obligations arise from: (1) Law; (2) Contracts; (3) Quasi-contracts; (4) Acts or omissions punished by law; and (5) Quasi-delicts.' },
+      { label: 'Art. 1159', heading: 'Book IV — Obligations: General Provisions', text: 'Obligations arising from contracts have the force of law between the contracting parties and should be complied with in good faith.' },
+      { label: 'Art. 1305', heading: 'Book IV — Contracts: General Provisions', text: 'A contract is a meeting of minds between two persons whereby one binds himself, with respect to the other, to give something or to render some service.' },
+      { label: 'Art. 1306', heading: 'Book IV — Contracts: General Provisions', text: 'The contracting parties may establish such stipulations, clauses, terms and conditions as they may deem convenient, provided they are not contrary to law, morals, good customs, public order, or public policy.' },
+      { label: 'Art. 1318', heading: 'Book IV — Contracts: Essential Requisites', text: 'There is no contract unless the following requisites concur: (1) Consent of the contracting parties; (2) Object certain which is the subject matter of the contract; (3) Cause of the obligation which is established.' },
+      { label: 'Art. 1458', heading: 'Book IV — Sales', text: 'By the contract of sale one of the contracting parties obligates himself to transfer the ownership and to deliver a determinate thing, and the other to pay therefor a price certain in money or its equivalent. A contract of sale may be absolute or conditional.' },
+      { label: 'Art. 2176', heading: 'Book IV — Quasi-Delicts', text: 'Whoever by act or omission causes damage to another, there being fault or negligence, is obliged to pay for the damage done. Such fault or negligence, if there is no pre-existing contractual relation between the parties, is called a quasi-delict and is governed by the provisions of this Chapter.' },
+    ],
+  },
+  {
+    id: 'rpc',
+    name: 'Revised Penal Code',
+    short: 'RPC',
+    law: 'Act No. 3815',
+    provisions: [
+      { label: 'Art. 3', heading: 'Book I — Felonies', text: 'Definitions. — Acts and omissions punishable by law are felonies (delitos). Felonies are committed not only by means of deceit (dolo) but also by means of fault (culpa). There is deceit when the act is performed with deliberate intent and there is fault when the wrongful act results from imprudence, negligence, lack of foresight, or lack of skill.' },
+      { label: 'Art. 4', heading: 'Book I — Felonies', text: 'Criminal liability. — Criminal liability shall be incurred: 1. By any person committing a felony (delito) although the wrongful act done be different from that which he intended. 2. By any person performing an act which would be an offense against persons or property, were it not for the inherent impossibility of its accomplishment or on account of the employment of inadequate or ineffectual means.' },
+      { label: 'Art. 6', heading: 'Book I — Felonies', text: 'Consummated, frustrated, and attempted felonies. — Consummated felonies as well as those which are frustrated and attempted, are punishable. A felony is consummated when all the elements necessary for its execution and accomplishment are present; and it is frustrated when the offender performs all the acts of execution which would produce the felony as a consequence but which, nevertheless, do not produce it by reason of causes independent of the will of the perpetrator. There is an attempt when the offender commences the commission of a felony directly by overt acts, and does not perform all the acts of execution which should produce the felony by reason of some cause or accident other than his own spontaneous desistance.' },
+      { label: 'Art. 8', heading: 'Book I — Felonies', text: 'Conspiracy and proposal to commit felony. — Conspiracy and proposal to commit felony are punishable only in the cases in which the law specially provides a penalty therefor. A conspiracy exists when two or more persons come to an agreement concerning the commission of a felony and decide to commit it. There is proposal when the person who has decided to commit a felony proposes its execution to some other person or persons.' },
+      { label: 'Art. 11', heading: 'Book I — Justifying Circumstances', text: 'Justifying circumstances. — The following do not incur any criminal liability: 1. Anyone who acts in defense of his person or rights, provided that the following circumstances concur: First. Unlawful aggression. Second. Reasonable necessity of the means employed to prevent or repel it. Third. Lack of sufficient provocation on the part of the person defending himself.', note: 'Paragraph 1 (self-defense) only. Paragraphs 2–6 omitted in this starter set.' },
+      { label: 'Art. 249', heading: 'Book II — Crimes Against Persons', text: 'Homicide. — Any person who, not falling within the provisions of Article 246, shall kill another without the attendance of any of the circumstances enumerated in the next preceding article, shall be deemed guilty of homicide and be punished by reclusion temporal.' },
+      { label: 'Art. 308', heading: 'Book II — Crimes Against Property', text: 'Who are liable for theft. — Theft is committed by any person who, with intent to gain but without violence against, or intimidation of persons nor force upon things, shall take personal property of another without the latter\'s consent.', note: 'First paragraph only.' },
+    ],
+  },
+  {
+    id: 'const',
+    name: '1987 Constitution of the Philippines',
+    short: 'Constitution',
+    law: '1987 Constitution',
+    provisions: [
+      { label: 'Art. II, Sec. 1', heading: 'Article II — Declaration of Principles and State Policies', text: 'The Philippines is a democratic and republican State. Sovereignty resides in the people and all government authority emanates from them.' },
+      { label: 'Art. III, Sec. 1', heading: 'Article III — Bill of Rights', text: 'No person shall be deprived of life, liberty, or property without due process of law, nor shall any person be denied the equal protection of the laws.' },
+      { label: 'Art. III, Sec. 2', heading: 'Article III — Bill of Rights', text: 'The right of the people to be secure in their persons, houses, papers, and effects against unreasonable searches and seizures of whatever nature and for any purpose shall be inviolable, and no search warrant or warrant of arrest shall issue except upon probable cause to be determined personally by the judge after examination under oath or affirmation of the complainant and the witnesses he may produce, and particularly describing the place to be searched and the persons or things to be seized.' },
+      { label: 'Art. III, Sec. 3', heading: 'Article III — Bill of Rights', text: '(1) The privacy of communication and correspondence shall be inviolable except upon lawful order of the court, or when public safety or order requires otherwise, as prescribed by law. (2) Any evidence obtained in violation of this or the preceding section shall be inadmissible for any purpose in any proceeding.' },
+      { label: 'Art. III, Sec. 4', heading: 'Article III — Bill of Rights', text: 'No law shall be passed abridging the freedom of speech, of expression, or of the press, or the right of the people peaceably to assemble and petition the government for redress of grievances.' },
+      { label: 'Art. III, Sec. 9', heading: 'Article III — Bill of Rights', text: 'Private property shall not be taken for public use without just compensation.' },
+      { label: 'Art. III, Sec. 21', heading: 'Article III — Bill of Rights', text: 'No person shall be twice put in jeopardy of punishment for the same offense. If an act is punished by a law and an ordinance, conviction or acquittal under either shall constitute a bar to another prosecution for the same act.' },
+      { label: 'Art. VIII, Sec. 1', heading: 'Article VIII — Judicial Department', text: 'The judicial power shall be vested in one Supreme Court and in such lower courts as may be established by law. Judicial power includes the duty of the courts of justice to settle actual controversies involving rights which are legally demandable and enforceable, and to determine whether or not there has been a grave abuse of discretion amounting to lack or excess of jurisdiction on the part of any branch or instrumentality of the Government.' },
+    ],
+  },
+  {
+    id: 'roc',
+    name: 'Rules of Court',
+    short: 'Rules of Court',
+    law: '1997 Rules of Civil Procedure (as amended 2019), Rules on Criminal Procedure, Revised Rules on Evidence (2019)',
+    provisions: [
+      { label: 'Rule 1, Sec. 6', heading: 'Civil Procedure — General Provisions', text: 'Construction. — These Rules shall be liberally construed in order to promote their objective of securing a just, speedy and inexpensive disposition of every action and proceeding.' },
+      { label: 'Rule 2, Sec. 1', heading: 'Civil Procedure — Cause of Action', text: 'Ordinary civil actions, basis of. — Every ordinary civil action must be based on a cause of action.' },
+      { label: 'Rule 2, Sec. 2', heading: 'Civil Procedure — Cause of Action', text: 'Cause of action, defined. — A cause of action is the act or omission by which a party violates a right of another.' },
+      { label: 'Rule 3, Sec. 2', heading: 'Civil Procedure — Parties to Civil Actions', text: 'Parties in interest. — A real party in interest is the party who stands to be benefited or injured by the judgment in the suit, or the party entitled to the avails of the suit. Unless otherwise authorized by law or these Rules, every action must be prosecuted or defended in the name of the real party in interest.' },
+      { label: 'Rule 110, Sec. 1', heading: 'Criminal Procedure — Prosecution of Offenses', text: 'Institution of criminal actions. — Criminal actions shall be instituted as follows: (a) For offenses where a preliminary investigation is required pursuant to section 1 of Rule 112, by filing the complaint with the proper officer for the purpose of conducting the requisite preliminary investigation. (b) For all other offenses, by filing the complaint or information directly with the Municipal Trial Courts and Municipal Circuit Trial Courts, or the complaint with the office of the prosecutor. In Manila and other chartered cities, the complaint shall be filed with the office of the prosecutor unless otherwise provided in their charters. The institution of the criminal action shall interrupt the running period of prescription of the offense charged unless otherwise provided in special laws.' },
+      { label: 'Rule 128, Sec. 1', heading: 'Evidence — General Provisions', text: 'Evidence defined. — Evidence is the means, sanctioned by these rules, of ascertaining in a judicial proceeding the truth respecting a matter of fact.' },
+      { label: 'Rule 128, Sec. 3', heading: 'Evidence — General Provisions', text: 'Admissibility of evidence. — Evidence is admissible when it is relevant to the issue and is not excluded by the Constitution, the law or these rules.' },
+    ],
+  },
+  {
+    id: 'fc',
+    name: 'Family Code of the Philippines',
+    short: 'Family Code',
+    law: 'Executive Order No. 209',
+    provisions: [
+      { label: 'Art. 1', heading: 'Title I — Marriage', text: 'Marriage is a special contract of permanent union between a man and a woman entered into in accordance with law for the establishment of conjugal and family life. It is the foundation of the family and an inviolable social institution whose nature, consequences, and incidents are governed by law and not subject to stipulation, except that marriage settlements may fix the property relations during the marriage within the limits provided by this Code.' },
+      { label: 'Art. 2', heading: 'Title I — Marriage', text: 'No marriage shall be valid, unless these essential requisites are present: (1) Legal capacity of the contracting parties who must be a male and a female; and (2) Consent freely given in the presence of the solemnizing officer.' },
+      { label: 'Art. 36', heading: 'Title I — Void and Voidable Marriages', text: 'A marriage contracted by any party who, at the time of the celebration, was psychologically incapacitated to comply with the essential marital obligations of marriage, shall likewise be void even if such incapacity becomes manifest only after its solemnization.', note: 'As amended by E.O. No. 227.' },
+    ],
+  },
+];

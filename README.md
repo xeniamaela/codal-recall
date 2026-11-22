@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# codal-recall
-=======
 # Codal Recall
 
 A flashcard and spaced-repetition reader for Philippine codals: the Civil Code, Revised Penal Code, 1987 Constitution, Rules of Court, Family Code, and any other law you import.
